@@ -5,11 +5,10 @@
 </template>
 
 <script setup lang="ts">
-for(let i=0;i<100;i++)
-{
-  console.log(i);
-  
+for (let i = 0; i < 100; i++) {
+  console.log(i)
 }
+let str="我是祖国的老花骨朵儿";
 </script>
 
 <style scoped lang="scss">
