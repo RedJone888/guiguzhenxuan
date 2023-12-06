@@ -1,24 +1,17 @@
 <template>
-  <div class="box">
-    <h1>我是App</h1>
-    <h1>新增一个标题</h1>
+  <div>
+    <router-view></router-view>
   </div>
 </template>
 
 <script setup lang="ts">
-for (let i = 0; i < 100; i++) {
-  console.log(i)
-}
-let str = '我是祖国的老花骨朵儿'
-</script>
 
-<style scoped lang="scss">
-.box {
-  width: 600px;
-  height: 400px;
-  background-color: black;
-  h1 {
-    color: white;
-  }
+</script>
+<script lang="ts">
+export default {
+    name:'App'
 }
+</script>
+<style scoped>
+
 </style>
